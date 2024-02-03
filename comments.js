@@ -62,5 +62,4 @@ router.post('/:id', async (req, res) => {
         // If there is an error, send a 500 status code and an error message
         res.status(500).json({ error: e });
     }
-}
-);
+});
